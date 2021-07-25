@@ -11,4 +11,3 @@ def floor(n: float) -> int:
     Return: floor of n as int
     '''
     return int(n)
-© 2021 GitHub, Inc.
