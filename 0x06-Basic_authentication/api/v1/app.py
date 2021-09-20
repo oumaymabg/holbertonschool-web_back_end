@@ -27,7 +27,7 @@ if __name__ == "__main__":
     app.run(host=host, port=port)
 
 @app.errorhandler(401)
-def not_found(error) -> str:
+def unauthorized(error) -> str:
     """ Unauthorized handler
     """
     return jsonify({"error": "Unauthorized"}),401
