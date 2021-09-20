@@ -28,5 +28,6 @@ if __name__ == "__main__":
 
 @app.errorhandler(401)
 def not_found(error) -> str:
-    """ Unauthorized handler"""
+    """ Unauthorized handler
+    """
     return jsonify({}),401
